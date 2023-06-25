@@ -126,21 +126,21 @@ svg {
   animation-delay: .20s;
 }
 .row-title{
-  height: 15vh;
   align-items: center;
-  margin-top: -250px;
+  padding-left: 15px;
 }
 .row-zones{
+  margin-top: 25px;
   display: flex;
-  height: 20vh;
   align-items: center;
 }
 .wrapper-areas{
+  width: 100%;
   margin-top: 25px;
 }
 .separator{
   padding-right: 15px;
-  width: 100%;
+  width: 95%;
   border: 1px solid #000;
   animation: fadeInX .5s ease-in forwards;
 }

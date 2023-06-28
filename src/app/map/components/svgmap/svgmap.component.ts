@@ -51,7 +51,7 @@ export class SvgmapComponent{
 
   initStorage(html:HTMLElement){
     this.oldHtmlElement = html
-    localStorage.setItem('element-id',html.id)
+    localStorage.setItem('element-id', html.id)
   }
 
   checkStorage(): boolean {

@@ -1,4 +1,4 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Zone } from '../model/zone.interface';
 
 @Injectable({
@@ -57,9 +57,9 @@ export class ZonesService {
           },
           {
             title: 'La Ceja',
-          },{
+          }, {
             title: 'Guarne',
-          },{
+          }, {
             title: 'Marinilla',
           },
         ],
@@ -83,6 +83,24 @@ export class ZonesService {
           {
             title: 'Girón',
           },
+          {
+            title: 'San Gil',
+          },
+          {
+            title: 'Pinchote'
+          },
+          {
+            title: 'Socorro'
+          },
+          {
+            title: 'Curiti'
+          },
+          {
+            title: 'Valle De San Jose'
+          },
+          {
+            title: 'Paramo'
+          }
         ],
       },
       {
@@ -143,7 +161,57 @@ export class ZonesService {
           {
             title: 'Alcala',
           },
+          {
+            title: 'Tuluá'
+          }
         ],
+      },
+      {
+        id: 'CO-BOY',
+        title: 'Boyacá',
+        areas: [
+          {
+            title: 'Tunja'
+          },
+          {
+            title: 'Motavita'
+          },
+          {
+            title: 'Oicata'
+          },
+          {
+            title: 'Combita'
+          },
+          {
+            title: 'Chivata'
+          },
+          {
+            title: 'Samaca'
+          },
+          {
+            title: 'Soraca'
+          }
+        ]
+      },
+      {
+        id: 'CO-CES',
+        title: 'Cesar',
+        areas: [{
+          title: 'Valledupar',
+        },
+        {
+          title: 'La Paz'
+        },
+        { title: 'San Diego' }
+        ]
+      },
+      {
+        id: 'CO-MET',
+        title: 'Meta',
+        areas: [{
+          title: 'Villavicencio',
+        }
+        ]
       },
       {
         id: 'CO-ATL',
@@ -184,7 +252,7 @@ export class ZonesService {
           },
           {
             title: 'Dosquebradas',
-          },{
+          }, {
             title: 'Santa Rosa De Cabal',
           }
         ]
@@ -262,33 +330,19 @@ export class ZonesService {
         ],
       },
       {
-        id: 'CO-CAQ',
-        title: 'Caquetá',
-        areas: [
-          {
-            title: 'area 1 ',
-          },
-          {
-            title: 'area 2',
-          },
-        ],
-      },
-      {
         id: 'CO-CAS',
         title: 'Casanare',
         areas: [
           {
-            title: 'area 1 ',
-          },
-          {
-            title: 'area 2',
-          },
+            title: 'Yopal',
+          }
         ],
       },
       {
         id: 'CO-CUN',
         title: 'Cundinamarca',
         areas: [
+          {title:'Bogotá'},
           {
             title: 'Chía',
           },
@@ -298,17 +352,47 @@ export class ZonesService {
           {
             title: 'Cota',
           },
+          {
+            title: 'Soacha'
+          }
         ],
       },
       {
-        id: 'CO-MET',
-        title: 'Meta',
+        id: 'CO-MAG',
+        title: 'Magdalena',
         areas: [
           {
-            title: 'area 1 ',
+            title: 'Santa Marta'
           },
           {
-            title: 'area 2',
+            title: 'Gaira'
+          },
+          {
+            title: 'Taganga'
+          },
+          {
+            title: 'Bonda'
+          },
+        ]
+      },
+      {
+        id: 'CO-SUC',
+        title: 'Sucre',
+        areas: [
+          {
+            title: 'Sincelejo',
+          },
+          {
+            title: 'Corozal',
+          },
+          {
+            title: 'Sampues',
+          },
+          {
+            title: 'Morroa',
+          },
+          {
+            title: 'Chinu',
           },
         ],
       },
@@ -324,9 +408,9 @@ export class ZonesService {
           },
           {
             title: 'Rio De Oro',
-          },{
+          }, {
             title: 'Pueblo Nuevo',
-          },{
+          }, {
             title: 'Buena Vista',
           },
         ],
